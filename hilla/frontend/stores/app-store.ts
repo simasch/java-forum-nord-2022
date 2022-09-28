@@ -1,8 +1,8 @@
 import {RouterLocation} from '@vaadin/router';
-import User from 'Frontend/generated/ch/martinelli/demo/data/entity/User';
-import Role from 'Frontend/generated/ch/martinelli/demo/data/Role';
 import {UserEndpoint} from 'Frontend/generated/endpoints';
 import {makeAutoObservable} from 'mobx';
+import Role from 'Frontend/generated/ch/martinelli/demo/Role';
+import User from 'Frontend/generated/ch/martinelli/demo/entity/User';
 
 export class AppStore {
   applicationName = 'Hilla';

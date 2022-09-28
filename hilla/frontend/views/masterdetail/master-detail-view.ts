@@ -18,14 +18,14 @@ import '@vaadin/split-layout';
 import '@vaadin/text-field';
 import '@vaadin/upload';
 import '@vaadin/vaadin-icons';
-import SamplePerson from 'Frontend/generated/ch/martinelli/demo/data/entity/SamplePerson';
-import SamplePersonModel from 'Frontend/generated/ch/martinelli/demo/data/entity/SamplePersonModel';
 import Sort from 'Frontend/generated/dev/hilla/mappedtypes/Sort';
 import Direction from 'Frontend/generated/org/springframework/data/domain/Sort/Direction';
 import * as SamplePersonEndpoint from 'Frontend/generated/SamplePersonEndpoint';
 import {html} from 'lit';
 import {customElement, property, query} from 'lit/decorators.js';
 import {View} from '../view';
+import SamplePersonModel from 'Frontend/generated/ch/martinelli/demo/entity/SamplePersonModel';
+import SamplePerson from 'Frontend/generated/ch/martinelli/demo/entity/SamplePerson';
 
 @customElement('master-detail-view')
 export class MasterDetailView extends View {

@@ -10,7 +10,6 @@ import '@vaadin/scroller';
 import '@vaadin/tabs';
 import '@vaadin/tabs/vaadin-tab';
 import '@vaadin/vaadin-lumo-styles/vaadin-iconset';
-import User from 'Frontend/generated/ch/martinelli/demo/data/entity/User';
 import {imageDataUrl} from 'Frontend/util';
 import {html, render} from 'lit';
 import {customElement} from 'lit/decorators.js';
@@ -20,6 +19,7 @@ import {router} from '../index';
 import {hasAccess, views} from '../routes';
 import {appStore} from '../stores/app-store';
 import {Layout} from './view';
+import User from 'Frontend/generated/ch/martinelli/demo/entity/User';
 
 interface RouteInfo {
   path: string;
